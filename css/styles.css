@@ -20,7 +20,7 @@ body {
 .mainButton {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875em;
   color: #ffffff;
 }
 .list {
@@ -39,7 +39,7 @@ a {
 .contaktsLinks a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.142em;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -52,7 +52,7 @@ a {
 .title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.142em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -60,7 +60,7 @@ a {
 .text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.363em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -69,7 +69,7 @@ a {
 .work_title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.166em;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -77,15 +77,14 @@ a {
 .team {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187em;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .teamCard {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187em;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -93,14 +92,14 @@ a {
 .group {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2em;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .groupName {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875em;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -125,7 +124,7 @@ a {
 .menu {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.142em;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -143,7 +142,7 @@ footer .logo {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714em;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -151,7 +150,10 @@ footer .logo {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714em;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.contakts a:focus {
+  color: #2196f3;
 }
