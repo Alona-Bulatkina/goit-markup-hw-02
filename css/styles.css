@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
 }
-.mainButton:hover {
+.mainButton:hover,
+.mainButton:focus {
   color: #2196f3;
 }
 .mainButton {
@@ -16,47 +17,45 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.mainButton {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875em;
   color: #ffffff;
 }
-.list {
-  list-style: none;
-}
-span {
-  color: #2196f3;
-}
 .color {
   background: #2f303a;
 }
-
 a {
   text-decoration: none;
 }
-.contaktsLinks a {
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142em;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu:focus,
+.menu:hover {
+  color: #2196f3;
+}
+.contaktsLinks {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142em;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contaktsLinks a:focus {
+.contaktsLinks:focus,
+.contaktsLinks:hover {
   color: #2196f3;
 }
+/* .logo span {
+  color: #2196f3;
+} 
 .logo {
   color: black;
-}
-.title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.142em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
+}*/
 .text {
   font-weight: 900;
   font-size: 44px;
@@ -65,6 +64,14 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .work_title {
   font-weight: bold;
@@ -103,10 +110,8 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.listMenu:hover,
 .listMenu:focus {
-  color: #2196f3;
-}
-.listMenu:hover {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -121,22 +126,20 @@ a {
   background: #f5f4fa;
   border-radius: 4px;
 }
-.menu {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142em;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.menu {
-  color: #757575;
-}
-.menu:focus {
-  color: #2196f3;
-}
-
-footer .logo {
+/*.logo {
   color: white;
+}*/
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714em;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contakts:hover,
+.contakts:focus {
+  color: #2196f3;
 }
 .contakts {
   font-style: normal;
@@ -145,15 +148,4 @@ footer .logo {
   line-height: 1.714em;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-.contakts a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714em;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.contakts a:focus {
-  color: #2196f3;
 }
