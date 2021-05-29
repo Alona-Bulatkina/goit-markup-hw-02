@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
+  font-weight: normal;
   color: #757575;
 }
 * {
@@ -50,12 +51,6 @@ a {
 .contaktsLinks:hover {
   color: #2196f3;
 }
-/* .logo span {
-  color: #2196f3;
-} 
-.logo {
-  color: black;
-}*/
 .text {
   font-weight: 900;
   font-size: 44px;
@@ -77,7 +72,6 @@ a {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166em;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -85,16 +79,13 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187em;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .teamCard {
   font-size: 16px;
   line-height: 1.187em;
-  text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 .group {
   font-weight: bold;
@@ -104,7 +95,6 @@ a {
   color: #212121;
 }
 .groupName {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.875em;
   letter-spacing: 0.03em;
@@ -126,12 +116,28 @@ a {
   background: #f5f4fa;
   border-radius: 4px;
 }
-/*.logo {
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logoStudio {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.logoFooter {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
   color: white;
-}*/
+}
 .address {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.714em;
   letter-spacing: 0.03em;
@@ -142,8 +148,6 @@ a {
   color: #2196f3;
 }
 .contakts {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.714em;
   letter-spacing: 0.03em;
