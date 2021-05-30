@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  letter-spacing: 0.03em;
+  font-size: 14px;
   color: #757575;
 }
 * {
@@ -11,7 +11,7 @@ body {
 }
 .mainButton:hover,
 .mainButton:focus {
-  color: #2196f3;
+  color: #ffffff;
 }
 .mainButton {
   cursor: pointer;
@@ -31,7 +31,6 @@ a {
 }
 .menu {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.142em;
   letter-spacing: 0.02em;
   color: #212121;
@@ -40,9 +39,11 @@ a {
 .menu:hover {
   color: #2196f3;
 }
+.menu:visited {
+  color: blueviolet;
+}
 .contaktsLinks {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.142em;
   letter-spacing: 0.02em;
   color: #757575;
@@ -62,9 +63,7 @@ a {
 }
 .title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.142em;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
@@ -72,14 +71,12 @@ a {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166em;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187em;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .teamCard {
@@ -88,7 +85,7 @@ a {
   letter-spacing: 0.03em;
 }
 .group {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
@@ -97,7 +94,6 @@ a {
 .groupName {
   font-size: 16px;
   line-height: 1.875em;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 .listMenu:hover,
@@ -109,38 +105,32 @@ a {
   color: rgb(29, 25, 25);
 }
 .listMenu {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .logo {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;
-  letter-spacing: 0.03em;
   color: #2196f3;
 }
 .logoStudio {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .logoFooter {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;
-  letter-spacing: 0.03em;
   color: white;
 }
 .address {
-  font-size: 14px;
   line-height: 1.714em;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .contakts:hover,
@@ -148,8 +138,6 @@ a {
   color: #2196f3;
 }
 .contakts {
-  font-size: 14px;
   line-height: 1.714em;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
